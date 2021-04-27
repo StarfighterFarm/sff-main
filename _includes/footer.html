@@ -1,9 +1,20 @@
   <footer>
-        <div class="container">
+        <div class="container" class="bg-darkest-gray">
             <div class="row">
+
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                      <img
+                      src="img/logos/SFF-1word_1615828121.png"
+                      class="img-responsive img-centered"
+                      style="height:70px;"
+                      alt="Starfighter Farm Logo">
                 </div>
+
+                <div class="col-md-4">
+                    <span class="copyright">
+                      Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                </div>
+
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
@@ -12,6 +23,7 @@
                         {% endfor %}
                     </ul>
                 </div>
+
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
                         <li><a href="#">Privacy Policy</a>
@@ -20,6 +32,7 @@
                         </li>
                     </ul>
                 </div>
+                
             </div>
         </div>
     </footer>
