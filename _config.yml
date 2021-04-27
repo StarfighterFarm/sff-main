@@ -1,0 +1,46 @@
+url:
+baseurl:
+
+# Site settings
+title: Starfighter Farm
+email: info@starfighterfarm.com
+description: "Rebel Against Bland"
+
+
+# Team names, titles and social links
+people:
+- name: Jim Howk
+  pic: 1
+  position:
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+
+
+- name: Suzi Howk
+  pic: 2
+  position:
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: github
+    url: http://github.com/starfighterfarm
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: PO Box 486
+  - line: Slater, IA 50244
+
+# Build settings
+markdown: kramdown
+permalink: pretty
