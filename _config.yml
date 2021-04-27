@@ -10,22 +10,21 @@ description: "Rebel Against Bland"
 # Team names, titles and social links
 people:
 - name: Jim Howk
-  pic: jim-astro
+  pic: jim-astro2
   position:
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/howkj1
     - title: facebook
-      url: #
+      url: https://www.facebook.com/howkj1/
 
 
 - name: Suzi Howk
   pic: suzi-astro
   position:
   social:
-    - title: twitter
-      url: #
     - title: facebook
+      url: https://www.facebook.com/profile.php?id=16925123
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
